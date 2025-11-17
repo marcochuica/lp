@@ -1,0 +1,49 @@
+body {
+  background-color: black;
+}
+
+h1 {
+  color: #ff4500;
+  font-family: "Arial", "Helvetica", sans-serif;
+}
+
+h2, h3, p {
+  color: white;
+  font-family: "Arial", "Helvetica", sans-serif;
+}
+
+.imagen-y-descripcion-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+/* === ESTILO DEL BOTÓN CTA === */
+.cta {
+  background-color: #ff4500;
+  color: black;
+  padding: 14px 28px;
+  margin-top: 20px;
+  border-radius: 6px;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+
+.cta:hover {
+  background-color: #ff6a33;
+  transform: scale(1.03);
+}
+/* ========================== */
+
+.imagen-usuarios {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
